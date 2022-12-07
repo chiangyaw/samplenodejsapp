@@ -5,9 +5,10 @@ const app = express();
 app.get('/', (req, res) => {
   res.send(`
     <html>
-      <body style="background-color: #ffc0cb">
-        <h1 style="color: #ffa500">Ben Chong is here!</h1>
-      </body>
+    <body>
+    <img src="https://media.giphy.com/media/l1J9B0F8OvQoyX9O4/giphy.gif" alt="Unicorn" />
+    <p>Ben Chong is Here</p>
+  </body>
     </html>
   `);
 });
